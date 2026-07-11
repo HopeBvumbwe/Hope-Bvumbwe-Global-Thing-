@@ -296,18 +296,12 @@ cursor:pointer;
 /* Responsive Design */
 
 @media(max-width:992px){
-
-```
 .big{
     grid-template-columns:repeat(2,1fr);
 }
-```
-
 }
 
 @media(max-width:768px){
-
-```
 nav{
     flex-direction:column;
     text-align:center;
@@ -341,6 +335,5 @@ nav a{
     width:100%;
     margin:10px 0;
 }
-```
 
 }
