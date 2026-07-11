@@ -340,4 +340,44 @@ nav a{
 }
 
 /* coffee selection page things */
+/* Coffee Banner */
+
+.coffee-banner{
+    height:45vh;
+    background:url("https://images.unsplash.com/photo-1511920170033-f8396924c348") center/cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+    margin-top:80px;
+}
+
+.coffee-banner h1{
+    font-size:55px;
+}
+
+.coffee-banner p{
+    font-size:20px;
+    margin-top:10px;
+}
+
+/* Search */
+
+.search-section{
+    text-align:center;
+    padding:40px 0;
+}
+
+.search-section input{
+    width:60%;
+    padding:15px;
+    border:none;
+    border-radius:40px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    font-size:16px;
+}
+
+/* Coffee Cards */
 
