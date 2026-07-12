@@ -513,9 +513,12 @@ nav a{
 }
 .reg button:hover{
     background:#d4a373;
-}
+
+
 @media(max-width:768px){
-    .reg form{
-        padding:20px;
+
+    .register form{
+        width:100%;
     }
+
 }
