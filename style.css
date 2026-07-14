@@ -99,8 +99,6 @@ max-width:700px;
 font-size:20px;
 }
 
-/* Featured Coffee & Equipment */
-
 .big{
 display:grid;
 grid-template-columns:repeat(3,1fr);
@@ -136,8 +134,6 @@ margin:20px 0 10px;
 padding:0 20px 20px;
 }
 
-/* Why Choose Us */
-
 .fourth{
 background:#fff7f0;
 text-align:center;
@@ -164,8 +160,6 @@ margin-bottom:15px;
 .deco h3{
 color:#4e342e;
 }
-
-/* Reviews */
 
 .fifth{
 text-align:center;
