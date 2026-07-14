@@ -172,8 +172,6 @@ margin:15px auto;
 font-style:italic;
 }
 
-/* Newsletter */
-
 .sixth{
 text-align:center;
 }
@@ -203,15 +201,13 @@ transition:0.3s;
 
 .sixth button:hover
 
-/* Map */
-
 .map iframe{
 width:100%;
 height:450px;
 border-radius:15px;
 }
 
-/* Footer */
+
 
 footer{
 background:#38160e;
@@ -237,7 +233,7 @@ cursor:pointer;
 
 footer i:hover
 
-/* Popup */
+
 
 #popup{
 position:fixed;
@@ -282,8 +278,6 @@ cursor:pointer;
 
 .popup-cont button:hover
 
-/* Responsive Design */
-
 @media(max-width:992px){
 .big{
     grid-template-columns:repeat(2,1fr);
@@ -327,7 +321,7 @@ nav a{
 
 }
 
-/* coffee,equipement, events css*/
+/* css for the other pages is down and the upper is foe the home page, top and footer */
 
 .top{
     margin-top:80px;
@@ -352,8 +346,6 @@ nav a{
 .top p{
     font-size:20px;
 }
-
-/* Search Bar */
 
 .search{
     display:flex;
