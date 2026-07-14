@@ -369,8 +369,6 @@ nav a{
     border:2px solid #d4a373;
 }
 
-/* Coffee Cards */
-
 .drinks{
     padding:20px 8% 80px;
 }
@@ -433,14 +431,11 @@ nav a{
     background:#d4a373;
 }
 
-/* Responsive */
-
 @media(max-width:992px){
 
     .drinks .big{
         grid-template-columns:repeat(2,1fr);
     }
-
 }
 
 @media(max-width:768px){
@@ -458,7 +453,7 @@ nav a{
     }
 
 }
-/* Events reg only */
+
 .reg{
     padding:20px 8% 80px;
     text-align:center;
@@ -494,7 +489,6 @@ nav a{
 .reg button:hover{
     background:#d4a373;
 
-
 @media(max-width:768px){
 
     .register form{
@@ -503,83 +497,3 @@ nav a{
 
 }
 
-/* ==========================
-   Shopping Cart
-========================== */
-
-.cart{
-    padding:80px 8%;
-}
-
-.cart table{
-    width:100%;
-    border-collapse:collapse;
-    background:white;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
-    margin-bottom:40px;
-}
-
-.cart th{
-    background:#4e342e;
-    color:white;
-    padding:18px;
-}
-
-.cart td{
-    padding:18px;
-    text-align:center;
-    border-bottom:1px solid #ddd;
-}
-
-.cart tr:hover{
-    background:#f7f7f7;
-}
-
-.summary{
-    width:350px;
-    margin-left:auto;
-    background:white;
-    padding:30px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,.15);
-}
-
-.summary h2{
-    color:#4e342e;
-    margin-bottom:20px;
-}
-
-.summary p{
-    margin:15px 0;
-    font-size:18px;
-}
-
-.summary button{
-    width:100%;
-    padding:15px;
-    border:none;
-    background:#4e342e;
-    color:white;
-    border-radius:30px;
-    cursor:pointer;
-    margin-top:20px;
-    font-size:16px;
-    transition:.3s;
-}
-
-.summary button:hover{
-    background:#d4a373;
-}
-
-@media(max-width:768px){
-
-    .cart{
-        overflow-x:auto;
-    }
-
-    .summary{
-        width:100%;
-        margin-top:30px;
-    }
-
-}
