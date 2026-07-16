@@ -117,8 +117,8 @@
     <section class="sixth">   
         <h2>Subscribe to Our Newsletter</h2>
         <p>Receive updates on new coffee blends, brewing tips, and exclusive offers.</p>
-        <form>
-            <input type="email" placeholder="Enter your email" required>
+        <form id="newsletterForm">
+            <input type="email" id="newsletterEmail" placeholder="Enter your email" required>
             <button type="submit">Subscribe</button>
         </form>
     </section>
@@ -131,12 +131,12 @@
         </iframe>
     </section>
 
-    <div id="popup">
+    <div id="popup" class="popup">
         <div class="popup-cont">
             <h2>Welcome!</h2>
             <p>Get 10% off your first purchase!</p>
-            <input type="email" placeholder="Enter your email" required>
-            <button>Claim Discount</button>
+            <input type="email" placeholder="Enter your email" id="discountEmail" required>
+            <button id="claimBtn">Claim Discount</button>
         </div>
     </div>
 
