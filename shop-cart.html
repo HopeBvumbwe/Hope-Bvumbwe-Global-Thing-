@@ -43,54 +43,12 @@
             <th>Remove</th>
         </tr>
 
-        <tr>
-            <td>Ethiopian Blend</td>
-            <td>MK10,000</td>
+        <tbody id="card-items">
+            
+        </tbody>
 
-            <td>
-                <input type="number" value="1" min="1">
-            </td>
-
-            <td>MK10,000</td>
-
-            <td>
-                <button class="remove">Remove</button>
-            </td>
-        </tr>
-
-        <tr>
-
-            <td>French Press</td>
-            <td>MK18,000</td>
-
-            <td>
-                <input type="number" value="1" min="1">
-            </td>
-
-            <td>MK18,000</td>
-
-            <td>
-                <button class="remove">Remove</button>
-            </td>
-
-        </tr>
-
-        <tr>
-
-            <td>Brazilian Santos</td>
-            <td>MK20,000</td>
-
-            <td>
-                <input type="number" value="2" min="1">
-            </td>
-
-            <td>MK40,000</td>
-
-            <td>
-                <button class="remove">Remove</button>
-            </td>
-
-        </tr>
+    </table>
+        
 
     </table>
 
@@ -98,13 +56,13 @@
 
         <h2>Order Summary</h2>
 
-        <p>Subtotal: <strong>MK68,000</strong></p>
+        <p>Subtotal: <strong id="subtotal">MK0</strong></p>
 
-        <p>Delivery: <strong>MK3,000</strong></p>
+        <p>Delivery: <strong id="delivery">MK3,000</strong></p>
 
         <hr>
 
-        <p><strong>Total: MK71,000</strong></p>
+        <p><strong id="grandTotal">Total: MK0</strong></p>
 
         <button class="checkout">
             Proceed to Checkout

@@ -94,3 +94,66 @@ if (eventForm) {
     });
 
 }
+
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+const buttons = document.querySelectorAll(".add-cart");
+
+buttons.forEach(button => {
+
+    button.addEventListener("click", function () {
+
+        const name = this.dataset.name;
+        const price = Number(this.dataset.price);
+
+        const existing = cart.find(item => item.name === name);
+
+        if (existing) {
+
+            existing.quantity++;
+
+        } else {
+
+            cart.push({
+                name: name,
+                price: price,
+                quantity: 1
+            });
+
+        }
+
+        localStorage.setItem("cart", JSON.stringify(cart));
+
+        alert(name + " added to cart!");
+
+    });
+
+});
+
+
+const continueBtn = document.querySelector(".continue");
+
+if (continueBtn) {
+
+    continueBtn.addEventListener("click", function () {
+
+        window.location.href = "coffee-selection.html";
+
+    });
+
+}
+const checkoutBtn = document.querySelector(".checkout");
+
+if (checkoutBtn) {
+
+    checkoutBtn.addEventListener("click", function () {
+
+        alert("Thank you for your purchase! Your order has been placed successfully.");
+
+        localStorage.removeItem("cart");
+
+        location.reload();
+
+    });
+
+}
