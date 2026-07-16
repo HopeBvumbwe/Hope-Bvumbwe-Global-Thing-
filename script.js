@@ -48,7 +48,7 @@ if (claimBtn) {
 
         }
 
-        alert("🎉 Congratulations!\n\nYour 10% discount has been claimed.");
+        alert(" Congratulations! Your 10% discount has been claimed.");
 
         localStorage.setItem("discountClaimed", "yes");
 
